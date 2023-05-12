@@ -1,4 +1,3 @@
-import Admin from "./page/Admin";
 import {
    ADMIN_ROUTE,
    DEVICE_ROUTE,
@@ -7,6 +6,8 @@ import {
    LOGIN_ROUTE,
    BASKET_ROUTE,
 } from "./utils/consts.js";
+
+import Admin from "./page/Admin";
 import Auth from "./page/Auth";
 import Basket from "./page/Basket";
 import DevicePage from "./page/DevicePage";
